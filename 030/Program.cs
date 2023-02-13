@@ -1,5 +1,5 @@
 ﻿// 30 Вывести на экран таблицу квадратов чисел от 1 до N
-
+/*
 int n;
 Console.Write("Введите число: ");
 n=Convert.ToInt32(System.Console.ReadLine());
@@ -20,27 +20,29 @@ int PowNum()
 }
 
 System.Console.WriteLine(PowNum());
+*/
 
 
 
 
+Console.Write("Введите число: ");
 
 
-
-/*
 int PowNum()
 {
-    int n, i, a=1;
+    int n, a=1;
     n=Convert.ToInt32(System.Console.ReadLine());
     int[] num = new int[n];
-    for (i=1; i<=n; i++)
+    for (int i=0; i<n; i++)
     {
-        num[i] = a;
-        a=(int)Math.Pow(i,2);
+        foreach (int b in num)
+        {
+            a=(int)Math.Pow(i,2);
+            System.Console.WriteLine(num[a]);
+        }
     }
-    System.Console.WriteLine(num[i]);
+    System.Console.WriteLine(num[a]);
     return 1;
 }
 
 System.Console.WriteLine(PowNum());
-*/
