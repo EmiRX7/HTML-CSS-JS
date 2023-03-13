@@ -7,7 +7,6 @@
 int[,] Massiv = new int[2, 8];
 int Proga()
 {
-    int arr;
     Random random;
     random = new Random();
 
