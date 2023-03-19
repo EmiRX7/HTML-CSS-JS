@@ -15,4 +15,7 @@ for(int i=0; i<4; i++)
         strokiSort[i]=n;
     }
 }
-
+for(int i=0; i<stroki.Length; i++)
+    Console.Write($"{stroki[i]} ");
+for(int i=0; i<stroki.Length; i++) 
+    Console.Write($"{strokiSort[i]} ");
